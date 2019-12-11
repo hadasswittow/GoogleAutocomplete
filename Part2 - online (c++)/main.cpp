@@ -6,14 +6,5 @@ int main() {
     Controller controller;
     controller.run();
 
-
-//    std::cout << "mymap contains:";
-//    for (auto it = data_table.begin(); it != data_table.end(); ++it){
-//        std::cout << it->first << ":\n";
-//        for(auto it1 = it->second.begin();it1!=it->second.end();++it1){
-//            std::cout << *it1 << std::endl;
-//        }
-//        std::cout<<std::endl;
-//    }
     return 0;
 }

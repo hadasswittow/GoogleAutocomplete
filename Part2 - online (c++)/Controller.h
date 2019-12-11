@@ -7,7 +7,6 @@
 
 #include "View.h"
 #include "Model.h"
-#include "AutoCompleteData.h"
 class Controller {
 
 public:
