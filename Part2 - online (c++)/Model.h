@@ -33,7 +33,7 @@ public:
     void parseDataFileToTable();
 
 private:
-    void fillCompletionsVector(const string& prefix, int score,  vector<AutoCompleteData> &completions);
+    bool fillCompletionsVector(const string& prefix, int score,  vector<AutoCompleteData> &completions);
     void characterExchanged(const string& prefix, vector<AutoCompleteData> &completions);
     void characterMissing(const string& prefix, vector<AutoCompleteData> &completions);
     void characterAdded(const string& prefix, vector<AutoCompleteData> &completions);
